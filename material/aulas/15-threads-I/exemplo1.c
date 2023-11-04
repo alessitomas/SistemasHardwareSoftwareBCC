@@ -15,7 +15,5 @@ int main() {
 
     printf("Hello main\n");
     
-    pthread_join(tid, NULL);
-    
     return 0;
 }
